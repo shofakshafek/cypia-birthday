@@ -35,7 +35,7 @@ export const wishesIntro = {
 
 export const wishes = [
   { id: 1, label: "Friend 01", name: "lala", avatar: "", message: "pia bistiii kuu habede nyakk, panjang umur sehat selalu, banyak rezekinya, makin langgeng hubungan nya aamiin. doa dari lala ni bistiii", date: "", visible: "auto" },
-  { id: 2, label: "Friend 02", name: "", avatar: "", message: "", date: "", visible: "auto" },
+  { id: 2, label: "Friend 02", name: "bryan", avatar: "", message: "selamat ulang tahun pia adikk akuu, semoga kamu sehat selalu, rezeki nya dilancarkan, ketika naik kelas semoga jadi pribadi yang lebih baik kedepannya, jangan lupain kakak muu ini. Kak bryant", date: "", visible: "auto" },
   { id: 3, label: "Friend 03", name: "", avatar: "", message: "", date: "", visible: "auto" },
   { id: 4, label: "Friend 04", name: "", avatar: "", message: "", date: "", visible: "auto" },
   { id: 5, label: "Friend 05", name: "", avatar: "", message: "", date: "", visible: "auto" },
