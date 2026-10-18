@@ -7,7 +7,6 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
   const location = useLocation();
 
-  // Tutup menu HP setiap pindah halaman.
   useEffect(() => {
     setOpen(false);
   }, [location.pathname]);
