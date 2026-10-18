@@ -39,7 +39,6 @@ export default function Home() {
 
   return (
     <>
-      {/* ------------------------------ HERO ------------------------------ */}
       <section className="hero">
         <div className="hero__text">
           <h1 className="hero__name rise" style={{ "--i": 0 }}>
@@ -81,7 +80,6 @@ export default function Home() {
         </p>
       </section>
 
-      {/* -------------------------- INTRODUCTION -------------------------- */}
       <section className="section intro">
         <div className="wrap intro__grid">
           <Reveal className="intro__head">
@@ -106,7 +104,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ----------------------------- MOMENTS ---------------------------- */}
       <section className="section moments">
         <div className="wrap">
           <Reveal className="moments__head">
@@ -133,7 +130,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ------------------------------- SONG ----------------------------- */}
       <section className="song">
         <div className="wrap song__inner">
           <Reveal className="song__art" aria-hidden="true">
@@ -168,7 +164,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ----------------------------- COUNTDOWN -------------------------- */}
       <section className="section countdown-section">
         <div className="wrap">
           <Reveal className="countdown-section__head">
@@ -181,7 +176,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* -------------------------------- NOTE ---------------------------- */}
       <section className="section note-section">
         <div className="wrap">
           <Reveal className="note">
