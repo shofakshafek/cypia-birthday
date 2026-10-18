@@ -1,25 +1,5 @@
-// ============================================================================
-//  gallery.js — DAFTAR FOTO
-//
-//  CARA MENAMBAH FOTO
-//  1. Taruh file di folder  public/images/  (image1.jpg, image2.jpg, ... dst)
-//  2. Salin satu blok { ... } di bawah, tempel di akhir daftar, lalu ubah
-//     id dan src (id harus unik dan berbeda-beda).
-//
-//  PENJELASAN PROPERTI
-//  id        : nomor unik.
-//  src       : lokasi file, selalu diawali "/images/".
-//  caption   : tulisan pendek di bawah foto. Kosongkan ("") jika tidak perlu.
-//  category  : dipakai untuk tombol filter. Bebas diganti (huruf kecil lebih rapi).
-//              Kalau semua foto memakai kategori yang sama, tombol filter hilang.
-//  alt       : deskripsi foto untuk pembaca layar. Tuliskan apa yang terlihat.
-//  ratio     : bentuk bingkai foto. Contoh: "4/5" (potret), "1/1" (kotak),
-//              "4/3" (lanskap), "3/4", "3/2". Isi "auto" untuk memakai
-//              rasio asli foto tanpa dipotong.
-//  featured  : true = foto ikut tampil sebagai pratinjau di halaman Home
-//              (bagian "Little Moments"; yang dipakai maksimal 4 foto).
-// ============================================================================
-
+// daftar foto disini (bisa ditambah teksnya kutaruh dibawah), atur rasio nya / kasih kelompok baru
+  //  featured gunanya untuk preview dihalaman 'home' max 4 foto
 export const galleryIntro = {
   title: "Little Moments",
   text: "Album kecil yang disusun pelan-pelan. Tekan foto untuk melihatnya lebih besar.",
@@ -113,6 +93,6 @@ export const photos = [
     alt: "Kenangan Cypiaa yang kesepuluh",
     ratio: "1/1",
   },
-  // Lanjutkan pola ini: image11.jpg, image12.jpg, ...
+  // Lanjutkan pola ini: image11.jpg, image12.jpg, ...  (ini disalin untuk nambah foto)
   // { id: 11, src: "/images/image11.jpg", caption: "", category: "memories", alt: "", ratio: "4/5" },
 ];
