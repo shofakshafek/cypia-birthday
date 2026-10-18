@@ -1,10 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Camera } from "lucide-react";
 
-// Foto dengan bingkai berformat tetap, fade-in setelah termuat, dan
-// placeholder yang menampilkan nama file bila gambar tidak ditemukan.
-//
-// ratio: "4/5" | "1/1" | ... | "auto" (rasio asli) | undefined (diatur lewat CSS)
+// atur nama foto dan rasio nyaaa
 export default function Photo({ src, alt = "", ratio, eager = false, compact = false, className = "" }) {
   const [failed, setFailed] = useState(false);
   const [loaded, setLoaded] = useState(false);
