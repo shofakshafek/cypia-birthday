@@ -12,7 +12,7 @@ function pad(value, length = 2) {
   return String(value).padStart(length, "0");
 }
 
-// Countdown otomatis menuju 18 Oktober berikutnya (zona Asia/Jakarta).
+// ganti countdown tgl lahirnya (klo gabisa, pake ai aja)
 export default function Countdown() {
   const [state, setState] = useState(() => computeCountdown(new Date(), person));
 
@@ -20,7 +20,6 @@ export default function Countdown() {
     let timer;
     const tick = () => {
       setState(computeCountdown(new Date(), person));
-      // Selaraskan dengan pergantian detik agar angka tidak meleset.
       timer = setTimeout(tick, 1000 - (Date.now() % 1000) + 8);
     };
     timer = setTimeout(tick, 1000 - (Date.now() % 1000) + 8);
