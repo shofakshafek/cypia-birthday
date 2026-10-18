@@ -1,3 +1,4 @@
+// sapik gantengg
 const TYPES = ["track", "album", "playlist", "episode", "show", "artist"];
 const ID_PATTERN = /^[A-Za-z0-9]{22}$/;
 
