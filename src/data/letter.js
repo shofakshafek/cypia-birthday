@@ -1,17 +1,13 @@
-// ============================================================================
 //  letter.js — ISI SURAT ULANG TAHUN
-//
-//  Semua kalimat di bawah adalah CONTOH. Ganti dengan tulisanmu sendiri.
-//  Setiap bagian punya daftar paragraf (paragraphs); tambah atau hapus
-//  paragraf sesukamu. Satu string = satu paragraf.
-//
-//  Bagian: pembukaan, harapan, doa, apresiasi, penutup.
-// ============================================================================
+  //  semua kalimat di bawah adalah CONTOH, gnti pake tulisanmu sendiri
+    //  setiap bagian punya daftar paragraf (paragraphs); tambah atau hapus
+      //  paragraf sesukamu. satu string = satu paragraf
+        //  bagian: pembukaan, harapan, doa, apresiasi, penutup
 
 export const letterPage = {
   title: "Birthday Letter",
   envelopeNote: "sebuah surat, untuk dibaca pelan-pelan",
-  showSectionLabels: false, // true = tampilkan nama bagian di samping paragraf (berguna saat menyunting)
+  showSectionLabels: true, // ganti aja true / false
 };
 
 export const letter = {
