@@ -12,7 +12,6 @@ import NotFound from "./pages/NotFound.jsx";
 export default function App() {
   const location = useLocation();
 
-  // Mulai dari atas setiap pindah halaman.
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [location.pathname]);
@@ -24,7 +23,6 @@ export default function App() {
       </a>
       <Navbar />
       <main id="main" tabIndex={-1}>
-        {/* key membuat transisi halus dijalankan ulang di setiap halaman */}
         <div className="page" key={location.pathname}>
           <Routes location={location}>
             <Route path="/" element={<Home />} />
