@@ -1,6 +1,3 @@
-// Mengubah link Spotify biasa menjadi data untuk Spotify Embed resmi.
-// Tidak butuh API token. Mengembalikan null kalau link tidak valid.
-
 const TYPES = ["track", "album", "playlist", "episode", "show", "artist"];
 const ID_PATTERN = /^[A-Za-z0-9]{22}$/;
 
@@ -10,7 +7,6 @@ function build(type, id) {
     id,
     openUrl: `https://open.spotify.com/${type}/${id}`,
     embedUrl: `https://open.spotify.com/embed/${type}/${id}?utm_source=generator`,
-    // Lagu & episode memakai player ringkas, sisanya player tinggi.
     height: type === "track" || type === "episode" ? 152 : 352,
   };
 }
@@ -42,7 +38,6 @@ export function parseSpotifyUrl(input) {
   return build(type, id);
 }
 
-// Hanya izinkan tautan https untuk ditampilkan sebagai link cadangan.
 export function safeHttpsUrl(input) {
   try {
     const url = new URL(String(input).trim());
