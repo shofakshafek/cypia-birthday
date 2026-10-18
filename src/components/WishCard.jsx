@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState } from "react";    // setting nya di 'data'
 
 const VARIANTS = ["paper", "note", "postcard"];
 const SIZES = ["md", "lg", "sm", "md", "sm", "lg"];
@@ -16,7 +16,6 @@ function Avatar({ name, src }) {
   );
 }
 
-// Kartu ucapan berbentuk surat kecil / kartu pos.
 export default function WishCard({ wish, index }) {
   const variant = wish.variant && VARIANTS.includes(wish.variant) ? wish.variant : VARIANTS[index % VARIANTS.length];
   const size = SIZES[index % SIZES.length];
