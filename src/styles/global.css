@@ -1,8 +1,3 @@
-/* ==========================================================================
-   global.css — token desain, reset, tipografi, layout dasar, navbar, footer
-   Ubah warna & font di bagian :root agar berlaku di seluruh website.
-   ========================================================================== */
-
 :root {
   /* Warna */
   --ivory: #fbf6ee;
