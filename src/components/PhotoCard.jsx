@@ -8,7 +8,7 @@ const TAPES = [
   "rgba(190, 150, 160, 0.45)",
 ];
 
-// Satu foto bergaya scrapbook. Seluruh kartu adalah tombol untuk membuka lightbox.
+// scrapbook
 export default function PhotoCard({ photo, index, onOpen }) {
   const hasCaption = Boolean(photo.caption && photo.caption.trim());
 
