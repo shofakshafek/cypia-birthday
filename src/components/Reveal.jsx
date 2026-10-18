@@ -1,7 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 
-// Memunculkan elemen dengan halus saat masuk layar.
-// Jika IntersectionObserver tidak tersedia, elemen langsung tampil.
+// memunculkan elemen dengan halus
 export default function Reveal({ as: Tag = "div", delay = 0, className = "", style, children, ...rest }) {
   const ref = useRef(null);
   const [shown, setShown] = useState(false);
