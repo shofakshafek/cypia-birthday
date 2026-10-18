@@ -1,13 +1,11 @@
-// ============================================================================
-//  birthday.js — SEMUA TEKS UTAMA WEBSITE ADA DI SINI
-//  Ubah teks di dalam tanda kutip. Jangan hapus nama properti (kiri titik dua).
-//  Foto  -> src/data/gallery.js
-//  Ucapan -> src/data/wishes.js
-//  Surat  -> src/data/letter.js
-//  Musik  -> src/data/music.js
-// ============================================================================
-
-// ---- Data dasar (dipakai countdown & judul) --------------------------------
+   //  birthday.js — SEMUA TEKS UTAMA WEBSITE ADA DI SINI
+    //  Ubah teks di dalam tanda kutip. Jangan hapus nama properti (kiri titik dua).
+     //  Foto  -> src/data/gallery.js
+      //  Ucapan -> src/data/wishes.js
+       //  Surat  -> src/data/letter.js
+        //  Musik  -> src/data/music.js
+         //sapik baik hati
+// data dasar (countdown & judul) 
 export const person = {
   name: "Cypiaa",
   birthDay: 18,
@@ -19,7 +17,7 @@ export const person = {
   showAge: true,
 };
 
-// ---- Info situs ------------------------------------------------------------
+// info situs
 export const site = {
   title: "Cypiaa",
   description:
@@ -27,7 +25,7 @@ export const site = {
   footerNote: "dibuat untuk cypia",
 };
 
-// ---- Menu navigasi ---------------------------------------------------------
+// navigasi
 export const nav = [
   { to: "/", label: "Home", end: true },
   { to: "/gallery", label: "Gallery" },
@@ -36,7 +34,7 @@ export const nav = [
   { to: "/music", label: "Music" },
 ];
 
-// ---- Hero (bagian paling atas halaman Home) --------------------------------
+// hero
 export const hero = {
   handNote: "happy birthday",
   headline: "a little corner of the world, just for you",
@@ -57,7 +55,7 @@ export const hero = {
   stampText: "cypiaa · 18 oktober 2011 · happy birthday · ",
 };
 
-// ---- Section di halaman Home ----------------------------------------------
+// section
 export const home = {
   intro: {
     title: "A Little Introduction",
@@ -66,7 +64,7 @@ export const home = {
       "Ini adalah halaman kecil yang disiapkan khusus untuk Cypiaa. Tidak ada yang rumit di sini, hanya hal-hal yang ingin disimpan dan diberikan di hari ulang tahunnya.",
       "hallo cypiaaa, ini website dariku seorang yaa!!, ada beberapa support kokk, semoga kamu suka website sederhana ini yaa!!",
     ],
-    // Daftar kecil di samping teks. Tambah / hapus baris sesukamu.
+    // daftar kecil dsbelah teks
     facts: [
       { label: "Nama", value: "Cypiaa" },
       { label: "Lahir", value: "18 Oktober 2011" },
@@ -90,11 +88,11 @@ export const home = {
   countdown: {
     title: "Birthday Countdown",
     text: "Menghitung mundur menuju 18 Oktober, tanpa melewatkan satu detik pun.",
-    // {age} diganti otomatis dengan umur yang akan dicapai.
+    // {age} udh otomatis di kedetect sistem
     untilTextWithAge: "menuju ulang tahun ke-{age}",
     untilText: "menuju hari ulang tahun",
     unitLabels: { days: "hari", hours: "jam", minutes: "menit", seconds: "detik" },
-    // Tampil saat tanggal 18 Oktober sedang berlangsung (zona Asia/Jakarta).
+    // (zona Asia/Jakarta).
     birthdayTitle: "Selamat ulang tahun, Cypiaa",
     birthdayTextWithAge: "Hari ini kamu genap {age} tahun. Semoga harinya menyenangkan dari pagi sampai malam.",
     birthdayText: "Semoga harimu menyenangkan dari pagi sampai malam.",
