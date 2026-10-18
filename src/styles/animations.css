@@ -1,8 +1,3 @@
-/* ==========================================================================
-   animations.css — semua gerak. Dibuat halus dan hemat tenaga HP.
-   Pengguna dengan "prefers-reduced-motion" otomatis tidak melihat gerak.
-   ========================================================================== */
-
 /* Pergantian halaman */
 @keyframes page-in {
   from {
