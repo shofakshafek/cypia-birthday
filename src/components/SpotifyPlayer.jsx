@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import { ExternalLink, Music } from "lucide-react";
 import { parseSpotifyUrl, safeHttpsUrl } from "../lib/spotify.js";
 
-// Spotify Embed resmi. Tidak memutar otomatis; pengguna menekan play sendiri.
+// spotify preview
 export default function SpotifyPlayer({ url, title, artist }) {
   const parsed = useMemo(() => parseSpotifyUrl(url), [url]);
   const [state, setState] = useState("loading"); // loading | loaded | slow | error
