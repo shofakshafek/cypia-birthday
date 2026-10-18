@@ -1,10 +1,4 @@
-/* ==========================================================================
-   components.css — komponen yang dipakai ulang: foto, lightbox, kartu ucapan,
-   Spotify, countdown, filter
-   ========================================================================== */
-
-/* ---------- Foto & bingkai scrapbook ---------- */
-
+/* scrapbook */
 .photo {
   position: relative;
   overflow: hidden;
@@ -129,7 +123,7 @@
   outline-offset: 6px;
 }
 
-/* ---------- Lightbox ---------- */
+/* Lightbox */
 
 .lightbox {
   position: fixed;
@@ -241,7 +235,7 @@
   color: var(--champagne);
 }
 
-/* ---------- Filter kategori ---------- */
+/* filter kategori */
 
 .filters {
   display: flex;
@@ -282,7 +276,7 @@
   color: var(--brown);
 }
 
-/* ---------- Kartu ucapan ---------- */
+/* kartu ucapan */
 
 .wish {
   --tilt: 0deg;
@@ -363,7 +357,7 @@
   color: var(--brown);
 }
 
-/* Varian: kertas dengan sudut terlipat */
+/* vrian: kertas dengan sudut terlipat */
 .wish--paper::after {
   content: "";
   position: absolute;
@@ -375,7 +369,7 @@
   box-shadow: -2px -2px 3px -1px rgba(62, 27, 43, 0.1);
 }
 
-/* Varian: kertas bergaris */
+/* vrian: kertas bergaris */
 .wish--note {
   background-color: var(--paper);
   background-image: repeating-linear-gradient(
@@ -392,7 +386,7 @@
   line-height: 1.9rem;
 }
 
-/* Varian: kartu pos dengan prangko */
+/* varian: kartu pos dengan prangko */
 .wish--postcard {
   border: 1px solid var(--line);
   outline: 1px solid var(--line);
@@ -420,7 +414,7 @@
   padding-right: 3.5rem;
 }
 
-/* ---------- Spotify ---------- */
+/* Spotify  */
 
 .spotify {
   display: grid;
@@ -486,7 +480,7 @@
   overflow-wrap: anywhere;
 }
 
-/* ---------- Countdown ---------- */
+/* countdown */
 
 .countdown__until {
   margin-bottom: 1.25rem;
