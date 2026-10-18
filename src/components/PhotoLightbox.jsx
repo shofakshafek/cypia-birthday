@@ -16,7 +16,6 @@ function LightboxImage({ photo }) {
   return <img className="lightbox__img" src={photo.src} alt={photo.alt || ""} onError={() => setFailed(true)} draggable="false" />;
 }
 
-// Lightbox: tombol tutup, sebelumnya/berikutnya, panah keyboard, Esc, dan swipe sentuh.
 export default function PhotoLightbox({ photos, index, onClose, onChange }) {
   const total = photos.length;
   const photo = photos[index];
@@ -32,7 +31,7 @@ export default function PhotoLightbox({ photos, index, onClose, onChange }) {
     [index, total, onChange]
   );
 
-  // Kunci scroll halaman, fokus ke tombol tutup, kembalikan fokus saat ditutup.
+  // kunci scroll halaman
   useEffect(() => {
     const previousFocus = document.activeElement;
     const previousOverflow = document.body.style.overflow;
